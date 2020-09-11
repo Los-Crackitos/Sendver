@@ -1,0 +1,31 @@
+{
+  "name": "tiny-email-sender",
+  "version": "1.0.0",
+  "description": "Tiny NodeJS server that allow users to send email from SMTP protocol ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Los-Crackitos/tiny-email-sender.git"
+  },
+  "keywords": [
+    "REST",
+    "NodeJS",
+    "Docker"
+  ],
+  "author": "[Baraffe Robin, Pogeant Jerôme]",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Los-Crackitos/tiny-email-sender/issues"
+  },
+  "homepage": "https://github.com/Los-Crackitos/tiny-email-sender#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
