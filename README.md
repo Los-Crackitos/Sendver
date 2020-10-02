@@ -6,7 +6,7 @@ Sendver is a tiny email sender API that allow users to send email throught http 
 
 ## Installation
 
-To install Sendver, you'll need to run the docker image from docker hub (coming soon). You must set environment variable, than can allow you to send email from SMTP server or by mailgun API.
+To install Sendver, you'll need to run the docker image from [docker hub](https://hub.docker.com/r/loscrackitos/sendver). You must set environment variable, than can allow you to send email from SMTP server or by mailgun API.
 
 ```docker run -p 8080:3000 --env MAILGUN_API_KEY=MYAPIKEY --env MAILGUN_DOMAIN=MYDOMAIN sendver ```
 
